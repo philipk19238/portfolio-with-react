@@ -1,0 +1,12 @@
+#sub-header {
+	color: purple;
+	font-family: 'Fira Code';
+}
+
+
+@media only screen and (max-width: 600px) {
+	#sub-header{
+		font-size: 20px;
+		text-align: center;
+	}
+}

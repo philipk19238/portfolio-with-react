@@ -1,0 +1,33 @@
+.fa-github-alt:hover{
+  color: #F1502F;
+}
+
+.fa-github-alt {
+  color: #330066;
+}
+
+.fa-instagram {
+  color: #330066;
+}
+
+.fa-instagram:hover{
+  color: #ff2681;
+}
+
+.fa-linkedin {
+  color: #330066;
+}
+
+.fa-facebook {
+  color: #330066;
+}
+
+.fa-linkedin:hover{
+  color: #2867B2;
+}
+
+.fa-facebook:hover{
+  color: #2867B2;
+}
+
+button:focus {outline:0;}

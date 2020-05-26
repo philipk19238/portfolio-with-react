@@ -1,0 +1,97 @@
+#welcome {
+	font-family: 'Fira Code';
+	font-size: 20px;
+	padding-left: 4%;
+	margin-left: 0.3rem;
+	color: purple;
+
+}
+
+#name {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#description {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	color: #4F2F48;
+}
+
+#about-desc {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	padding-left: 4%;
+	font-size: 30px;
+}
+
+
+@media only screen and (max-width: 600px) {
+	#name {
+		font-size: 40px;
+		letter-spacing: 0.2px;
+		padding-left: 4%;
+	}
+	#welcome {
+		font-size: 13px;
+		padding-left: 4%;
+	}
+	#description{
+		font-size: 30px;
+		padding-left: 4%;
+	}
+	#about-desc {
+		font-size: 15px;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	#name {
+		font-size: 50px;
+		padding-left: 4%;
+	}
+	#description{
+		font-size: 40px;
+		padding-left: 4%;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	#name {
+		font-size: 60px;
+		padding-left: 4%;
+	}
+	#description{
+		font-size: 50px;
+		padding-left: 4%;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	#name {
+		font-size: 70px;
+		padding-left: 4%;
+	}
+	#description {
+		font-size: 60px;
+		padding-left: 4%;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	#name {
+		font-size: 80px;
+		padding-left: 4%;
+	}
+	#description {
+		font-size: 70px;
+		padding-left: 4%;
+	}
+}

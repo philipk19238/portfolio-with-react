@@ -1,0 +1,14 @@
+#mediumButton {
+	border-radius: 12px;
+	background-color: purple;
+	font-family: 'Fira Code';
+	color: white;
+	border: 3px solid purple;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	#mediumButton {
+		font-size: 10px;
+	}
+}
