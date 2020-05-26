@@ -6,6 +6,11 @@
 	border: 3px solid purple;
 }
 
+#mediumButton:hover {
+	background-color: transparent;
+	color: purple;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 	#mediumButton {

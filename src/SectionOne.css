@@ -1,0 +1,104 @@
+#about-text {
+	padding-left: 4%;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+ul.no_bullet {
+list-style-type: none;
+padding-left: 4%;
+margin: 0;
+}
+
+ul.no_bullet li {
+	display: block;
+}
+
+.bullet-icon:before {
+  content: '\1F4CD';
+  margin-left: -20px;
+  margin-right: 10px;
+}
+
+.bullet-icon {
+  font-family: 'Fira Code', monospace;
+  font-size: 18px;
+}
+
+.frame {
+  box-shadow:
+    20px 20px 0 -3.5px white,
+    20px 20px 0 0 purple;
+    
+  transition: box-shadow ease-in 150ms;
+
+  border: 2px solid #4F2F48;
+
+
+}
+
+.frame:hover {
+  box-shadow:
+    10px 10px 0 -5px white,
+    10px 10px 0 0 purple;
+    filter: opacity(1);
+}
+
+.container {
+  padding: 0px;
+}
+
+.list-group {
+  display: inline-block;
+  border: none;
+
+}
+
+#me-image {
+	height: 300px;
+	width: auto;
+}
+
+@media only screen and (max-width: 600px) {
+	#about-text {
+		font-size: 14px;
+	}
+
+	.bullet-icon {
+		font-size: 12px;
+	}
+
+	#me-image {
+		height: 200px;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	.bullet-icon {
+		font-size: 13px;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.bullet-icon{
+		font-size: 14px;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.bullet-icon {
+		font-size: 15px;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.bullet-icon{
+		font-size: 16px;
+	}
+}
+
+

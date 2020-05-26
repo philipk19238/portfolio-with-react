@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './About'
 import Subheader from './helper/subheader.js'
 import Navbar from './Navbar'
+import SectionOne from './SectionOne'
 
 class Main extends React.Component {
 
@@ -12,6 +13,7 @@ class Main extends React.Component {
 			<Navbar/>
 			<Header/>
 			<Subheader section_name="About" section_number="01." />
+			<SectionOne />
 			</div>
 			)
 	}
