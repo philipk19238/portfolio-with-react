@@ -1,0 +1,18 @@
+ul a {
+	font-family: 'Fira Code';
+	color: grey;
+	transition: 0.3s;
+}
+
+ul a:hover {
+	color: #4F2F48;
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+	ul {
+		background-color: white;
+		display: flex;
+		justify-content: center;
+	}
+}
